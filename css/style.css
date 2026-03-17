@@ -1,0 +1,95 @@
+:root {
+    --primary-color: #FF2E63;
+    --secondary-color: #252A34;
+    --light-gray: #F9F9F9;
+    --light-pink: #FFC5E6;
+    --gray: #E9E9E9;
+    --text-gray: #4E4E4E;
+
+}
+
+body {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 500;
+}
+
+.navbar {
+    background: var(--primary-color);
+}
+
+.navbar-brand img {
+    width: 72px;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.button {
+    background: var(--secondary-color);
+    padding: 8px 0;
+    width: 100px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: var(--primary-color);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.hero-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.hero-btn .button {
+    width: 200px;
+    text-decoration: none;  
+}
+
+.btn-contato {
+    color: var(--secondary-color);
+}
+
+.links {
+    margin: 24px 0;
+}
+
+.links a {
+    color: var(--secondary-color);
+    font-size: 40px;
+}
+
+.hero img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background: var(--primary-color);
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer .links {
+    margin: 0;
+    padding: 20px 0;
+}
+
+footer p {
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-bottom: 8px;
+}
