@@ -77,6 +77,50 @@ body {
     border-radius: 8px;
 }
 
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.about {
+    padding: 60px 0;
+    text-align: center;
+    background: var(--light-gray);
+    color: var(--secondary-color);
+}
+
+.about h3{
+    font-size: 20px;
+}
+
+.about p {
+    color: var(--text-gray);
+}
+
+.cards-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.about-card {
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 5px 5px 6px #00000050;
+    padding: 8px;
+    height: 180px;
+    text-align: start;
+}
+
+.about-card i{
+    font-size: 32px;
+    color: var(--primary-color);
+    background: var(--light-pink);
+    border-radius: 6px;
+    padding: 4px;
+    margin-bottom: 16px;
+}
+
 footer {
     background: var(--primary-color);
     color: #FFFFFF;
