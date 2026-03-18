@@ -283,7 +283,10 @@ footer p {
 }
 
 @media screen and (min-width:768px) {
-    
+    .skills-group {
+        width: 420px;
+        margin: 0 auto;
+    }
 }
 @media screen and (min-width:992px) {
     body {
@@ -347,7 +350,17 @@ footer p {
         height: 200px;
     }
 
+    .skills-group {
+        width: 500px;
+    }
 
+    .skills-iten p {
+        transition: 0.3s;
+    }
+
+    .skills-iten p:hover {
+        transform: scale(1.1);
+    }
 }
 @media screen and (min-width:1024px) {
     
