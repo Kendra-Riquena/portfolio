@@ -178,6 +178,8 @@ h3{
     box-shadow: 5px 5px 6px #00000050;
     padding: 8px;
     text-align: start;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .project-card img {
@@ -361,6 +363,32 @@ footer p {
     .skills-iten p:hover {
         transform: scale(1.1);
     }
+
+    .projects-group {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .project-card {
+        margin: 0;
+    }
+
+    .project-card img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .project-card-skills p,
+    .project-card-buttons a{
+        transition: 0.3s;
+    }
+
+    .project-card-skills p:hover,
+    .project-card-buttons a:hover {
+        transform: scale(1.1);
+    }
+
+
 }
 @media screen and (min-width:1024px) {
     
