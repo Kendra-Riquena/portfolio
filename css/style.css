@@ -25,6 +25,7 @@ body {
 .nav-link {
     color: #FFFFFF;
     text-align: center;
+    transition: 0.3s;
 }
 
 .button {
@@ -34,6 +35,7 @@ body {
     text-align: center;
     border-radius: 8px;
     margin: 0 auto;
+    transition: 0.3s;
 }
 
 section {
@@ -73,6 +75,7 @@ section {
 .links a {
     color: var(--secondary-color);
     font-size: 40px;
+    transition: 0.3s;
 }
 
 .hero img {
@@ -102,6 +105,7 @@ h3{
     display: flex;
     flex-direction: column;
     gap: 12px;
+    align-items: center;
 }
 
 .about-card {
@@ -110,6 +114,7 @@ h3{
     box-shadow: 5px 5px 6px #00000050;
     padding: 8px;
     height: 180px;
+    max-width: 300px;
     text-align: start;
 }
 
@@ -173,6 +178,8 @@ h3{
     box-shadow: 5px 5px 6px #00000050;
     padding: 8px;
     text-align: start;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .project-card img {
@@ -241,6 +248,8 @@ h3{
     flex-direction: row;
     gap: 8px;
     text-align: start;
+    width: 296px;
+    margin: 0 auto;
 }
 
 .contact-card i {
@@ -259,8 +268,8 @@ h3{
 .contact-card a {
     color: var(--secondary-color);
     text-decoration: none;
+    transition: 0.3s;
 }
-
 
 footer {
     background: var(--primary-color);
@@ -276,4 +285,128 @@ footer p {
     font-weight: 400;
     margin-bottom: 0;
     padding-bottom: 8px;
+}
+
+@media screen and (min-width:768px) {
+    .skills-group {
+        width: 420px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width:992px) {
+    body {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .navbar .collapse {
+        justify-content: end;
+    }
+
+    .navbar .collapse ul {
+        gap: 32px;
+    }
+
+    .nav-link:hover {
+        color: var(--secondary-color);
+        transform: scale(1.1);
+    }
+
+    .button:hover {
+        transform: scale(1.1);
+        color: #FFFFFF;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .hero-info {
+        text-align: start;
+    }
+
+    .hero-btn {
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .btn-contato:hover {
+        color: var(--secondary-color);
+    }
+
+    .links {
+        margin-bottom: 0;
+    }
+
+    .links a:hover {
+        color: #FFFFFF;
+    }
+
+    .cards-group {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .about-card {
+        height: 200px;
+    }
+
+    .skills-group {
+        width: 500px;
+    }
+
+    .skills-iten p {
+        transition: 0.3s;
+    }
+
+    .skills-iten p:hover {
+        transform: scale(1.1);
+    }
+
+    .projects-group {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .project-card {
+        margin: 0;
+    }
+
+    .project-card img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .project-card-skills p,
+    .project-card-buttons a{
+        transition: 0.3s;
+    }
+
+    .project-card-skills p:hover,
+    .project-card-buttons a:hover {
+        transform: scale(1.1);
+    }
+
+    .contact-card {
+        width: 330px;
+    }
+
+    .contact-card a:hover {
+        color: var(--primary-color);
+    }
+
+}
+
+@media screen and (min-width:1440px) {
+    .button{
+        margin-left: 0;
+    }
+
+    .hero img {
+        width: 70%;
+    }
 }
